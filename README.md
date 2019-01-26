@@ -1,0 +1,2 @@
+# BigeAdam
+bilgeAdam ders içeriği
