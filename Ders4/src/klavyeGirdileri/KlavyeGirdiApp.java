@@ -17,5 +17,6 @@ public class KlavyeGirdiApp {
         System.out.println("Girdiğiniz ikinci sayi:"+sayi2);
         sonuc=sayi1+sayi2;
         System.out.println("Toplam sonuç:"+sonuc);
+
     }
 }
