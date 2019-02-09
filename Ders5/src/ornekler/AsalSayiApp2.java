@@ -6,9 +6,22 @@ public class AsalSayiApp2 {
        int sayi ;
 
         String asalSayi="";
-        for( i=0;i<=100;i++){
+        String asalSayi2="";
+        for( i=2;i<=100;i++){
+            if(i!=2 || i!=3 || i!=5 || i!=7){
+                if(i%2==0 || i%3==0 || i%5==0 || i%7==0){
 
-            int sayac=0;
+                }
+                else {
+                    asalSayi+=i+" ";
+                }
+            }
+            else{
+                asalSayi2+=i+" ";
+
+            }
+
+         /*   int sayac=0;
             for(sayi=i;sayi>=1;sayi--){
                 if(i%sayi==0){
                     sayac++;
@@ -16,10 +29,10 @@ public class AsalSayiApp2 {
             }
             if(sayac==2){
                 asalSayi+=i+" ";
-            }
+            }*/
 
         }
-        System.out.println("1 den 100 e kadar olan asal sayilar:" + asalSayi);
+        System.out.println(asalSayi2);
 
 
     }
